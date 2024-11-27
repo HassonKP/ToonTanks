@@ -1,0 +1,9 @@
+# Normalize text files to LF in the repo and CRLF on Windows checkouts
+* text=auto
+
+# Explicitly set line endings for certain file types
+*.cpp text eol=lf
+*.h text eol=lf
+*.ini text eol=lf
+*.uproject text eol=lf
+
